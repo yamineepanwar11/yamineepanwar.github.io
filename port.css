@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .navbar {
+    background-color: #ffffff;
+  }
+  .navi {
+    color: #a855f7;
+    font-weight: 600;
+  }
+  .navbar-nav.nav-link {
+    font-weight: 600;
+    color: #1f2937;
+  }
+  .navbar-nav.nav-link:hover {
+    color: #ca8a04;
+  }
+  .pro {
+    background-color: #faf5ff;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .title span {
+    color: #a855f7;
+    font-weight: 600;
+  }
+  .btn-primary {
+    background-color: #a855f7;
+    border-color: #a855f7;
+  }
+  .btn-primary:hover {
+    background-color: #9333ea;
+    border-color: #9333ea;
+  }
+  .btn-outline-primary {
+    color: #a855f7;
+    border-color: #a855f7;
+  }
+  .btn-outline-primary:hover {
+    background-color: #9333ea;
+    color: #ffffff;
+  }
+  .profile-img {
+    width: min(400px, 100%);
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .img {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .image {
+    overflow: hidden;
+  }
+  .content {
+    padding: 1rem;
+  }
+  .dow {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+  }.o {
+    padding-left: 15px;
+  }
+  .Q {
+    padding-left: 15px;
+  }
+  .button {
+    padding-left: 15px;
+  }
+  
+  @media (max-width: 768px) {
+  .pro {
+      padding: 40px 0;
+    }
+  
+  .profile-img {
+      margin-bottom: 20px;
+    }
+  
+  .o,
+  .Q,
+  .button {
+      padding-left: 15px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+  .container.mt-4 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+  .col-lg-4.col-md-6.col-sm-12.mb-4 {
+      width: 33.33%;
+      box-sizing: border-box;
+      padding: 0 15px;
+    }
+  
+  .d-grid.gap-3.button {
+      display: flex;
+      justify-content: center;
+    }
+  
+  .d-grid.gap-3.button a,
+  .d-grid.gap-3.button.btn {
+      width: auto;
+    }
+  
+  .o,
+  .Q {
+      text-align: center;
+    }
+  }
